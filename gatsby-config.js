@@ -11,11 +11,7 @@ module.exports = {
     intro: "John Doe is a photographer....",
     menuLinks: [
       {
-        name: "Home",
-        slug: "/",
-      },
-      {
-        name: "Speakers",
+        name: "Diversify Indy",
         slug: "/speakers/",
       },
       {
@@ -61,5 +57,6 @@ module.exports = {
     {
       resolve: `gatsby-theme-amsterdam`,
     },
+    `gatsby-plugin-theme-ui`,
   ],
 }

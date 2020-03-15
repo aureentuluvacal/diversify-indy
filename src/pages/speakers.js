@@ -1,10 +1,12 @@
 import React from "react"
 import styled from "styled-components"
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Card from "../components/card"
 import Interests from "../components/interests"
-import Contact from "../components/contact"
+import ContactList from "../components/contactList"
+import Picture from "../components/picture"
 import { speakers } from "../constants/speakers"
 import { uniqueId } from "../utils"
 
@@ -18,16 +20,38 @@ const List = styled.ul`
 `
 
 const ListItem = styled.li`
-  padding: 20px;
+  padding: 1.5rem;
+  display: flex;
+  line-height: 1.25rem;
 `
 
 const SpeakerName = styled.h2`
   font-size: 1.62671rem;
+  margin-bottom: 0.5rem;
 `
 
 const Pronouns = styled.h4`
   font-size: 1.1rem;
   color: gray;
+`
+
+const TextWrapper = styled.div`
+  margin-left: 1rem;
+`
+
+const Topics = styled.div`
+  margin-top: 1rem;
+`
+
+const Header = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+`
+
+const NameWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
 `
 
 const SpeakersPage = () => (
@@ -41,7 +65,17 @@ const SpeakersPage = () => (
     </p>
     <br />
     <p>
-      If you're interested in joining this list, <a href="">go here</a>.
+      If you're interested in joining this list,{" "}
+      <Link
+        to="https://airtable.com/shrbBw5YZE60rie13"
+        style={{
+          textDecoration: `none`,
+          color: "#008080",
+        }}
+      >
+        fill out this form
+      </Link>
+      .
     </p>
     <br />
     <List>
@@ -50,19 +84,30 @@ const SpeakersPage = () => (
           name,
           biography,
           interests,
-          interestsIfOther,
           pronouns,
           contact,
+          picture,
+          topics,
         } = speaker
         return (
           <Card key={uniqueId("Speaker_")}>
             <ListItem>
-              <SpeakerName>{name}</SpeakerName>
-              <Pronouns>{pronouns}</Pronouns>
-              <br />
-              <p>{biography}</p>
-              <Interests interests={interests} other={interestsIfOther} />
-              <Contact contact={contact} />
+              <Picture picture={picture} name={name} />
+              <TextWrapper>
+                <Header>
+                  <NameWrapper>
+                    <SpeakerName>{name}</SpeakerName>
+                    <Pronouns>{pronouns}</Pronouns>
+                  </NameWrapper>
+                  <ContactList contact={contact} />
+                </Header>
+                <br />
+                <p>{biography}</p>
+                <Topics>
+                  <b>Topics:</b> {topics}
+                </Topics>
+                <Interests interests={interests} />
+              </TextWrapper>
             </ListItem>
           </Card>
         )

@@ -6,7 +6,6 @@ export const speakers = [
       email: "mailto:ar3@ar3.me",
     },
     interests: ["Meetups"],
-    interestsIfOther: "I'm open to ideas!",
     topics:
       "Building product team habits leading to success, Product organizational design, from engineering to product to management, product and/or engineering at Lessonly",
     biography:
@@ -20,8 +19,7 @@ export const speakers = [
       linkedin: "https://www.linkedin.com/in/anna-eaglin/",
       email: "mailto:anna.eaglin@innovatemap.com",
     },
-    interests: ["Meetups", "Conferences", "Other"],
-    interestsIfOther: "I'm open to ideas!",
+    interests: ["Meetups", "Conferences"],
     topics:
       "Pride IN Tech, LGBTQ+ issues, LGBTQ+ issues in tech, women in tech, Product Management, Product Research, UX",
     biography:
@@ -37,15 +35,13 @@ export const speakers = [
       linkedin: "https://www.linkedin.com/in/annasaraceno/",
       email: "mailto:annasaraceno@gmail.com",
     },
-    interests: ["Meetups", "Conferences", "Companies", "Other"],
-    interestsIfOther:
-      "Mentorship opportunities, engagement with employee resource groups (e.g., for women, GLBTQ folks, etc)",
+    interests: ["Meetups", "Conferences", "Companies"],
     topics:
       "Communicating the value of design within an organization. Self-assessment. Critique methods and sessions. Soft skills that are important to have as a designer. Finding and navigating a career path. I'm open to anything that is of interest to someone who reads my profile.",
     biography:
       "Anna is a Senior Product Designer at Trello, which is part of the Atlassian ecosystem. Anna works remotely here in Indianapolis from her home that she shares with her wife (also named Anna), 2 sons, and a multitude of dogs and cats. Anna has held a number of positions as an in-house UX/Product Designer at multiple SaaS companies in Indianapolis, including Blackbaud, Salesforce, and Springbuk, with a short stint in freelancing.",
     pronouns: "she/her/hers",
-    picture: "anna-saraceno.jpg",
+    picture: "anna-saraceno.png",
   },
   {
     name: "Darye Henry",
@@ -54,7 +50,6 @@ export const speakers = [
       email: "mailto:darye@afterschoolhq.com",
     },
     interests: ["Meetups", "Conferences"],
-    interestsIfOther: "",
     topics:
       "How to get software done and done right, minorities in tech, entrepreneurship, being a minority entrepreneur in tech, helping minorities succeed.",
     biography:
@@ -69,7 +64,6 @@ export const speakers = [
       email: "mailto:myaeliza15@gmail.com",
     },
     interests: ["Meetups", "Conferences", "Companies"],
-    interestsIfOther: "",
     topics:
       "UX fundamentals, design thinking for non-designers, the importance of empathy in app creation, diversity & inclusion topics",
     biography:
@@ -84,10 +78,9 @@ export const speakers = [
       website: "https://www.caryssaperez.com",
       email: "mailto:caryssaperez@gmail.com",
     },
-    interests: ["Meetups", "Conferences", "Companies"],
-    interestsIfOther: "",
+    interests: ["Meetups", "Companies"],
     topics:
-      "Diversity & Inclusion, product documentation and engineering enablement, UX basics",
+      "Diversity & Inclusion, product documentation, engineering enablement, UX basics, enabling non-product and non-engineering teams on technology",
     biography:
       "Caryssa is a CTO using her past experience as a software engineer to build a quality product for her company, Iris. She lives in Indianapolis with her partner, Irma; her two dogs, Lolita and Milo; and her cat, Genevieve.",
     pronouns: "she/her/hers",
@@ -100,7 +93,7 @@ export const speakers = [
       email: "mailto:melissa.crum17@gmail.com",
     },
     interests: ["Meetups", "Conferences", "Companies"],
-    interestsIfOther: "",
+
     topics: "Analytics, Affiliate marketing, Email marketing",
     biography:
       "Melissa has 10 years of experience in Online Marketing with focus on affiliate marketing, paid marketing, and analytics. ",
@@ -116,7 +109,6 @@ export const speakers = [
       email: "mailto:scttcrry@gmail.com",
     },
     interests: ["Meetups", "Conferences", "Companies"],
-    interestsIfOther: "",
     topics:
       "UX Design, Diversity & Inclusion Tops, Self-Teaching Your Own Way Into Tech",
     biography:
@@ -131,7 +123,6 @@ export const speakers = [
       email: "mailto:evida@rightoninteractive.com",
     },
     interests: ["Meetups", "Conferences", "Companies"],
-    interestsIfOther: "",
     topics:
       "Financial Literacy and Independance, Start-up Strategies, Bi-erasure, Diversity in team building, #honestcontent Social Media Content as a philosophy, Customer Narrative/customer lifecycle",
     biography:
@@ -146,7 +137,6 @@ export const speakers = [
       email: "mailto:tonie@360hr.co",
     },
     interests: ["Meetups", "Conferences", "Companies"],
-    interestsIfOther: "",
     topics: "Workplace equality, Diversity Forward, Transformational Inclusion",
     biography:
       "Tonie relocated to Indianapolis three years ago. Her passion lies in moving diversity forward in talent acquisition, especially for those who stand at the intersection.",
@@ -160,7 +150,6 @@ export const speakers = [
       email: "mailto:ashleemboyer.dev@gmail.com",
     },
     interests: ["Meetups", "Conferences", "Companies"],
-    interestsIfOther: "",
     topics:
       "Accessibility from a design and technical perspective is what I'm most interested in speaking about. I'm also open to speaking about mental health or my experiences in tech as a hard of hearing person.",
     biography:
@@ -175,12 +164,11 @@ export const speakers = [
       email: "mailto:ashleemboyer.dev@gmail.com",
     },
     interests: ["Meetups", "Conferences", "Companies"],
-    interestsIfOther: "",
     topics: "Diversity in tech, women in tech, demystifying what “tech” is",
     biography:
       "Linda has worn many hats in her 15+ year career. She started on a help desk, and since has held a number of positions in IT, serving as a digital IT leader for two Fortune 200 companies, an agile advocate, director of employee engagement at a local tech company. Linda has also worked in policy communications and as a civil prosecutor for the city of Indianapolis. She’s currently the VP for the School of IT at Ivy Tech Community College. In every role, she’s served as an advocate for diversity in the workforce.",
     pronouns: "she/her/hers",
-    picture: "linda-calvin.jpeg",
+    picture: "linda-calvin.png",
   },
   {
     name: "Melanie Malott",
@@ -189,7 +177,6 @@ export const speakers = [
       email: "mailto:melanie.malott@emarsys.com",
     },
     interests: ["Meetups", "Conferences"],
-    interestsIfOther: "",
     topics:
       "Diversity, Inclusion, Innovation, Global Organizations, Process Improvement",
     biography:
@@ -204,12 +191,11 @@ export const speakers = [
       email: "mailto:kate.maxwell@raytheon.com",
     },
     interests: ["Meetups", "Conferences", "Companies"],
-    interestsIfOther: "",
     topics:
-      "I frequently conduct speaking engagements on the topics of National Defense Strategy, fostering innovation and creativity in the workplace, corporate technology acquisition (particularly in national defense), STEM outreach, and Diversity & Inclusion.  Happy to speak at any event, and really appreciate your efforts to compile a diverse speaker list for Indy.  As a women in technology in Aerospace & Defense, I applaud your efforts. This really makes a huge difference. Thank you!",
+      "National Defense Strategy, fostering innovation and creativity in the workplace, corporate technology acquisition (particularly in national defense), STEM outreach, and Diversity & Inclusion.",
     biography:
-      "Kate Maxwell is a tech executive in the Aerospace & Defense community, where she is the Engineering Lead for the Raytheon Indianapolis site and Chief Engineer of the Product Support business area.  Kate has more than fifteen years of experience supporting programs for government customers, managing strategic R&D efforts across the business, and providing technical expertise in Mission Management and Unmanned Systems. Kate is a recognized innovator and founding Director of the IIS Innovation Center, an organization which inspires and empowers Raytheon employees to innovate – at all levels and functions. Kate is a local and national award winner, with recognitions including being named a 2019 Indianapolis Business Journal Woman of Influence and being a two-time national winner with the Society of Women Engineers.",
+      "Kate Maxwell is a tech executive in the Aerospace & Defense community, where she is the Engineering Lead for the Raytheon Indianapolis site and Chief Engineer of the Product Support business area. Kate has more than fifteen years of experience supporting programs for government customers, managing strategic R&D efforts across the business, and providing technical expertise in Mission Management and Unmanned Systems. Kate is a founding Director of the IIS Innovation Center, an organization which inspires and empowers Raytheon employees to innovate. She was named a 2019 Indianapolis Business Journal Woman of Influence and is a two-time national winner with the Society of Women Engineers.",
     pronouns: "she/her/hers",
-    picture: "kate-maxwell.jpg",
+    picture: "kate-maxwell.png",
   },
 ]

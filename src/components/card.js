@@ -1,15 +1,26 @@
-import React from "react"
+/** @jsx jsx */
+import { jsx } from "theme-ui"
 import styled from "styled-components"
 
 const Wrapper = styled.div`
-  border: 1px solid #e9e9e9;
-  border-radius: 8px;
-  background-color: #ffffff;
-  margin: 10px 0;
+  border-radius: 0.5rem;
+  margin: 0.625rem 0;
 `
 
 const Card = ({ children }) => {
-  return <Wrapper>{children}</Wrapper>
+  return (
+    <Wrapper
+      sx={{
+        backgroundColor: "tertiary",
+        color: "text",
+        borderStyle: "solid",
+        borderWidth: "1px",
+        borderColor: "border",
+      }}
+    >
+      {children}
+    </Wrapper>
+  )
 }
 
 export default Card
