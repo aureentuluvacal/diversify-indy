@@ -7,7 +7,7 @@ export const speakers = [
     },
     interests: ["Meetups"],
     topics:
-      "Building product team habits leading to success, Product organizational design, from engineering to product to management, product and/or engineering at Lessonly",
+      "Building product team habits that lead to success, product organizational design, from engineering to product to management, product and/or engineering at Lessonly",
     biography:
       "Andrew Robinson III serves the Product and Engineering department at Lessonly where he focuses on building a team that solves real problems for real people.",
     pronouns: "he/him/his",
@@ -23,7 +23,7 @@ export const speakers = [
     topics:
       "Pride IN Tech, LGBTQ+ issues, LGBTQ+ issues in tech, women in tech, Product Management, Product Research, UX",
     biography:
-      "Anna is a Principal Product Partner at Innovatemap where she leads the up the product research team and helps bring Indy’s biggest tech ideas to life. Whether she’s guiding customer research or conducting workshops, Anna helps emerging companies uncover their biggest challenges, prioritize their requirements, and ensure they build well-designed products. Anna is also the founder of Pride IN Tech, a networking group for LGBTQ+ professionals to make connections in the Indiana tech community.",
+      "Anna is a Principal Product Partner at Innovatemap where she leads the product research team and helps bring Indy’s biggest tech ideas to life. Whether she’s guiding customer research or conducting workshops, Anna helps emerging companies uncover their biggest challenges, prioritize their requirements, and ensure they build well-designed products.",
     pronouns: "she/her/hers",
     picture: "anna-eaglin.jpg",
   },
@@ -75,7 +75,7 @@ export const speakers = [
     name: "Caryssa Perez",
     contact: {
       linkedin: "https://www.linkedin.com/in/caryssa-perez/",
-      website: "https://www.caryssaperez.com",
+      website: "https://caryssaperez.com",
       email: "mailto:caryssaperez@gmail.com",
     },
     interests: ["Meetups", "Companies"],
@@ -85,6 +85,21 @@ export const speakers = [
       "Caryssa is a CTO using her past experience as a software engineer to build a quality product for her company, Iris. She lives in Indianapolis with her partner, Irma; her two dogs, Lolita and Milo; and her cat, Genevieve.",
     pronouns: "she/her/hers",
     picture: "caryssa-perez.jpeg",
+  },
+  {
+    name: "Irma Mesa",
+    contact: {
+      linkedin: "https://linkedin.com/in/irmamesa",
+      website: "https://irmamesa.com",
+      email: "mailto:irmammesa@gmail.com.com",
+    },
+    interests: ["Meetups", "Conferences"],
+    topics:
+      "Getting into tech from a non-traditional background, diversity and inclusion, and Product Management.",
+    biography:
+      "Irma is a Product Manager out of Indianapolis, IN living with her partner, 2 dogs, and a sweet cat. Irma has been remote since 2017 ever since moving from Miami, FL to Indianapolis, IN. She’s passionate about helping women break into tech and Product Management. Today, Irma is working on Cafecito a community for remote workers to have serendipitous coffee breaks with other remote workers.",
+    pronouns: "she/her/hers",
+    picture: "irma-mesa.jpeg",
   },
   {
     name: "Melissa Crum",
