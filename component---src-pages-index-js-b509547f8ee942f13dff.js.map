@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/index.js"],"names":["IndexPage"],"mappings":"4FAAA,6CAKeA,UAFG,kBAAM,YAAC,UAAD","file":"component---src-pages-index-js-b509547f8ee942f13dff.js","sourcesContent":["import React from \"react\"\nimport SpeakersPage from \"./speakers\"\n\nconst IndexPage = () => <SpeakersPage />\n\nexport default IndexPage\n"],"sourceRoot":""}
