@@ -30,12 +30,22 @@ const Wrapper = styled.div`
   align-items: center;
   margin: 1.5rem 0;
   justify-content: start;
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+  }
+`
+
+const DescriptorText = styled.span`
+  margin-right: 1rem;
+  @media (max-width: 768px) {
+    margin-bottom: 1rem;
+  }
 `
 
 const Interests = ({ interests }) => {
   return (
     <Wrapper>
-      <span style={{ marginRight: "1rem" }}>Interested in speaking at:</span>
+      <DescriptorText>Interested in speaking at:</DescriptorText>
       <div style={{ display: "flex" }}>
         {interests.map(interest => (
           <Interest type={interest} key={uniqueId("Interest_")}>

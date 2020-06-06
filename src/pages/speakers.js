@@ -23,6 +23,14 @@ const ListItem = styled.li`
   padding: 1.5rem;
   display: flex;
   line-height: 1.25rem;
+  display: flex;
+  flex-wrap: no-wrap;
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+  }
 `
 
 const SpeakerName = styled.h2`
@@ -39,7 +47,7 @@ const TextWrapper = styled.div`
   margin-left: 1rem;
 `
 
-const Topics = styled.div`
+const Topics = styled.p`
   margin-top: 1rem;
 `
 
@@ -47,11 +55,18 @@ const Header = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
 `
 
 const NameWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  @media (max-width: 768px) {
+    flex-basis: 100%;
+  }
 `
 
 const SpeakersPage = () => (

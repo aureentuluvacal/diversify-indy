@@ -4,6 +4,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
+  font-size: 1rem;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -629,5 +630,19 @@ pre tt:after {
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  p,
+  span,
+  nav {
+    font-size: 1.2rem !important;
+    line-height: 1.4rem !important;
+  }
+
+  main > h1,
+  main > p {
+    padding: 0 1rem;
   }
 }
